@@ -53,7 +53,7 @@ export default class Index extends React.Component {
             <p className="tl b copy-header mt3">Consulting</p>
             <p className="tl text center lh-copy mv0">I work with individuals, agencies, and brands. See recent work below. If you&rsquo;d like to discuss a project, or just talk shop, <a className="green" href="mailto:ryan@ryandeussing.com">please get in touch</a>.</p>
             <div className="images">
-              <a target="_blank" href="http://www.merrittwoodwork.com">
+              <a target="_blank" href="http://mww.netlify.com">
                 <img src={merritt} />
               </a>
               <LazyLoad height={590} unmountIfInvisible={false}>
@@ -80,7 +80,7 @@ export default class Index extends React.Component {
                 </a>
               </LazyLoad>
               <LazyLoad height={642} unmountIfInvisible={false}>
-                <a target="_blank" href="http://www.eventnetusa.net">
+                <a target="_blank" href="http://www.eventnetusa.com">
                   <img src={eventnet} />
                 </a>
               </LazyLoad>
