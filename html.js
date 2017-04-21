@@ -34,6 +34,7 @@ module.exports = React.createClass({
           {head.meta.toComponent()}
           <TypographyStyle typography={typography} />
           <GoogleFont typography={typography} />
+          <link rel="icon" href="favicon.ico" type="image/x-icon" />
           {css}
         </head>
         <body>
