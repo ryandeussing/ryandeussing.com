@@ -75,7 +75,7 @@ export default class Index extends React.Component {
                 </a>
               </LazyLoad>
               <LazyLoad height={688} unmountIfInvisible={false}>
-                <a target="_blank" href="http://www.lbdwines.net">
+                <a target="_blank" href="http://www.lbdwines.com">
                   <img src={lbd} />
                 </a>
               </LazyLoad>
