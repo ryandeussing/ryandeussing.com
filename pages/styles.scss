@@ -71,6 +71,9 @@ p.copy-header {
     padding: 0 2rem;
     font-size: 18px;
   }
+  .images img {
+    max-width: 80%;
+  }
 }
 
 @media (min-width: 720px) {
@@ -109,6 +112,9 @@ p.copy-header {
   }
   .copy .center {
     max-width: 800px;
+  }
+  .images img {
+    // max-width: 90%;
   }
 }
 
