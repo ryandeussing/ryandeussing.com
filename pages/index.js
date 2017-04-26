@@ -51,42 +51,42 @@ export default class Index extends React.Component {
         <section className="copy tc pv5">
           <div className="center">
             <p className="tl b copy-header mt3">Consulting</p>
-            <p className="tl text center lh-copy mv0">I work with individuals, agencies, and brands. If you&rsquo;d like to discuss a project, or just talk shop, <a className="green" href="mailto:ryan@ryandeussing.com">please get in touch</a>.</p>
+            <p className="tl text center lh-copy mv0">I work with individuals, agencies, brands, and friends. If you&rsquo;d like to discuss a project, or just talk shop, <a className="green" href="mailto:ryan@ryandeussing.com">please get in touch</a>.</p>
             <div className="images">
-              <a target="_blank" href="http://mww.netlify.com">
-                <img className="mh4 mh0-ns" src={merritt} />
+              <a target="_blank" href="https://www.merrittwoodwork.com">
+                <img className="" src={merritt} />
               </a>
               <LazyLoad height={590} unmountIfInvisible={false}>
                 <a target="_blank" href="http://www.ps212.com">
-                  <img className="mh4 mh0-ns" src={ps212} />
+                  <img className="" src={ps212} />
                 </a>
               </LazyLoad>
               <LazyLoad height={712} unmountIfInvisible={false}>
-                <a target="_blank" href="http://www.audiovideosystems.com">
-                  <img className="mh4 mh0-ns" src={avs} />
+                <a target="_blank" href="https://www.audiovideosystems.com">
+                  <img className="" src={avs} />
                 </a>
               </LazyLoad>
               <LazyLoad height={720} unmountIfInvisible={false}>
-                <img className="mh4 mh0-ns" src={burkeman} />
+                <img className="" src={burkeman} />
               </LazyLoad>
               <LazyLoad height={794} unmountIfInvisible={false}>
                 <a target="_blank" href="http://www.ogroup.net">
-                  <img className="mh4 mh0-ns" src={ogroup} />
+                  <img className="" src={ogroup} />
                 </a>
               </LazyLoad>
               <LazyLoad height={688} unmountIfInvisible={false}>
                 <a target="_blank" href="http://www.lbdwines.com">
-                  <img className="mh4 mh0-ns" src={lbd} />
+                  <img className="" src={lbd} />
                 </a>
               </LazyLoad>
               <LazyLoad height={642} unmountIfInvisible={false}>
-                <a target="_blank" href="http://www.eventnetusa.com">
-                  <img className="mh4 mh0-ns" src={eventnet} />
+                <a target="_blank" href="https://www.eventnetusa.com">
+                  <img className="" src={eventnet} />
                 </a>
               </LazyLoad>
               <LazyLoad height={642} unmountIfInvisible={false}>
                 <a target="_blank" href="http://www.dirtcandynyc.com">
-                  <img className="mh4 mh0-ns" src={dirtcandy} />
+                  <img className="" src={dirtcandy} />
                 </a>
               </LazyLoad>
             </div>
