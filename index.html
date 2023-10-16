@@ -209,24 +209,36 @@ ul.blog-posts li a:visited {
     const urls = [
       'https://youtu.be/hxi_qliU3DE?si=P8kLdxiY-VerqECw&t=38',
       'https://youtu.be/Dng1ahrZ3qU?si=WKUvPsawMen6Nmru&t=728',
-      'https://youtu.be/xV7F-JwTx_U?si=zf8DpLLvOil4Q_bn&t=71',
       'https://youtu.be/6fPqmceCf90?si=6K4GGeFkqsnFQZk1&t=12',
-      'https://youtu.be/Bqgsikd6fcA?si=fKiPjtFTV1souRI8&t=789',
-      'https://www.youtube.com/watch?v=jTO-zb6XTzg',
-
-      // Add your list of URLs here
+      'https://youtu.be/wXFxwMAIBYc?si=A4k4GdmCrjJUg7G9&t=185',
+      'https://youtu.be/Bqgsikd6fcA?si=fKiPjtFTV1souRI8&t=793',
+      'https://www.youtube.com/watch?v=GGmGMEVbTAY&t=1s',
+      'https://www.youtube.com/watch?v=1LqggFA_Tp8'
     ];
 
-    function getRandomUrl() {
-    const randomIndex = Math.floor(Math.random() * urls.length);
-    return urls[randomIndex];
+// Function to shuffle the URLs randomly
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
   }
 
-    // Function to handle the click event on the anchor element
-    function handleAnchorClick() {
-        const randomUrl = getRandomUrl();
-        window.open(randomUrl, "_blank"); // Open the URL in a new window/tab
-    }
+  // Shuffle the URLs when the page loads
+  window.onload = () => {
+    shuffleArray(urls);
+  };
+
+let clickCount = 0; // Initialize a click counter
+
+  // Function to handle the click event on the anchor element
+  function handleAnchorClick() {
+    const randomUrl = urls[clickCount % urls.length]; // Get the URL based on the click count
+    window.open(randomUrl, "_blank"); // Open the URL in a new window/tab
+    clickCount = (clickCount + 1) % urls.length; // Increment the click counter and cycle back to 0 when it reaches the end
+  }
+</script>
+
     </script>
 <footer style="padding:25px 0;">
 </footer>
